@@ -3,16 +3,16 @@ using namespace std;
 
 int main()
 {
-    int numOfEvens, count;
+    int numOfEvens, i;
 
     cout << "Please enter a positive integer: ";
     cin >> numOfEvens;
 
     if (numOfEvens > 0)
     {
-        for (count = 1; count <= numOfEvens; count++)
+        for (i = 1; i <= numOfEvens; i++)
         {
-            cout << count * 2 << endl;
+            cout << i * 2 << endl;
         }
     }
 
