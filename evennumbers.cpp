@@ -3,8 +3,7 @@ using namespace std;
 
 int main()
 {
-    int numOfEvens;
-    int count;
+    int numOfEvens, count;
 
     cout << "Please enter a positive integer: ";
     cin >> numOfEvens;
